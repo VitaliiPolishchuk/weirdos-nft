@@ -16,15 +16,17 @@ function App() {
     <>
       <GlobalStyles />
       <ThemeProvider theme={light}>
-        <Navigation />
-        <Home />
-        <About />
-        <Roadmap />
-        <Showcase />
-        <Team />
-        <Faq />
-        <Footer />
-        <ScrollToTop />
+        <div>
+          <Navigation />
+          <Home />
+          <About />
+          <Roadmap />
+          <Showcase />
+          <Team />
+          <Faq />
+          <Footer />
+          <ScrollToTop />
+        </div>
       </ThemeProvider>
     </>
   );

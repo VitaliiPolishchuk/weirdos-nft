@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Up = styled.div`
   width: 3rem;
   height: 3rem;
-
+  position: absolute;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ const Up = styled.div`
   position: fixed;
   right: 1rem;
   bottom: 1rem;
-
+  z-index: 101;
   cursor: pointer;
 
   display: none;

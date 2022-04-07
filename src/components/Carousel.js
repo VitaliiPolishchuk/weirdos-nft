@@ -23,7 +23,7 @@ import Arrow from "../assets/Arrow.svg";
 const Container = styled.div`
   width: 25vw;
   height: 70vh;
-
+  max-width: 100%;
   @media (max-width: 70em) {
     height: 60vh;
   }
@@ -34,10 +34,12 @@ const Container = styled.div`
   @media (max-width: 48em) {
     height: 45vh;
     width: 40vw;
+    /* overflow: visible; */
   }
   @media (max-width: 30em) {
     height: 45vh;
     width: 60vw;
+    /* overflow: hidden; */
   }
 
   .swiper {
