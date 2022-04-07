@@ -39,7 +39,7 @@ const Menu = styled.ul`
   display: flex;
 
   @media (max-width: 64em) {
-    /* display: none; */
+    display: ${(props) => (props.click ? "flex" : "none")};
     position: fixed;
     top: ${(props) => props.theme.navHeight};
     left: 0;
